@@ -55,7 +55,7 @@ Link to Qiime2: [https://docs.qiime2.org/2024.5/install/native/](https://docs.qi
 
 See the page below for some more step-by-step guidance for this:
 
-[Configuring conda (mamba) and QIIME2 on Barnacle](https://www.notion.so/Configuring-conda-mamba-and-QIIME2-on-Barnacle-13d80b984a5b8048ae18fa2be108ef93?pvs=21) 
+[Configuring conda (mamba) and QIIME2 on Barnacle](conda-qiime2-config.md) 
 
 ## **General Bash Commands**
 
