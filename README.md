@@ -3,8 +3,8 @@ Some info about setting up and using Barnacle2 for Knight Lab purposes
 
 # Getting started with Barnacle
 
-Owner: Lucas Patel
-Tags: Guides and Processes
+Original Creator: Lucas Patel (and many other Knight Lab members)
+Edited By: Michael Iter
 
 Barnacle (barnacle2.ucsd.edu) is a powerful [SLURM](https://en.wikipedia.org/wiki/Slurm_Workload_Manager) cluster designed for computationally intensive tasks and secure data access. When using Barnacle, you will have access to very expensive and powerful computing hardware enabling much faster and efficient analyses. This guide will help you get started.
 
