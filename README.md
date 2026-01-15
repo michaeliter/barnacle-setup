@@ -108,15 +108,33 @@ Warning: Do not run any big jobs on the login node (which is what originally boo
 ### **test.sh**
 
 ```bash
-#!/bin/bash # mauthor: leo-joseph l1joseph@ucsd.edu # purpose: test slurm functions echo'hello world'
+#!/bin/bash
+# author: leo-joseph
+# email: l1joseph@ucsd.edu
+# purpose: test slurm functions
 
+echo 'hello world'
 ```
 
 ### **test.sbatch**
 
 ```bash
-#!/bin/bash # author: leo-joseph l1joseph@ucsd.edu # purpose: test slurm functions#SBATCH -J test #SBATCH --mail-type=ALL #SBATCH --mail-user=l1joseph@ucsd.edu #SBATCH --partition=short #SBATCH --time=00:10:00 #SBATCH --ntasks=1 #SBATCH --nodes=1 #SBATCH --mem=2gb #SBATCH --output=%x-%A_%a.out #SBATCH --error=%x-%A_%a.err echo 'hello world'
+#!/bin/bash
+# author: leo-joseph
+# email: l1joseph@ucsd.edu
+# purpose: test slurm functions
+#SBATCH -J test
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=l1joseph@ucsd.edu
+#SBATCH --partition=short
+#SBATCH --time=00:10:00
+#SBATCH --ntasks=1
+#SBATCH --nodes=1
+#SBATCH --mem=2gb
+#SBATCH --output=%x-%A_%a.out
+#SBATCH --error=%x-%A_%a.err
 
+echo 'hello world'
 ```
 
 ## **JupyterHub for UCSD**
